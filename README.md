@@ -9,3 +9,6 @@ git fetch origin main && git reset --hard origin/main
 
 Istalar Docker
 sudo docker build -t ml_casadi .
+
+
+sudo docker exec -it bb1f32509950 /bin/bash
