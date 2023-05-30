@@ -17,3 +17,9 @@ sudo docker exec -it bb1f32509950 /bin/bash
 Si deseas ver tanto los contenedores en ejecución como los detenidos, puedes agregar la opción -a al comando:
 
 docker ps -a
+
+#Adicional a la Docker de Patrick
+cd build
+cmake -DACADOS_WITH_OPENMP=ON ..
+make install -j4
+
